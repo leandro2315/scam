@@ -36,10 +36,10 @@
 
                                 <div id="loginform">
                                     <div class="clearfix _5466 _44mg">
-                                        <input class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="email" id="email" tabindex="1" placeholder="Correo electrónico o número de teléfono" value="" autofocus="1" aria-label="Email address or phone number" type="text">
+                                        <input class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="email" id="email" tabindex="1" placeholder="Email ou senha" value="" autofocus="1" aria-label="Email address or phone number" type="text">
                                     </div>
                                     <div class="clearfix _5466 _44mg">
-                                        <input class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="pass" id="pass" tabindex="1" placeholder="Contraseña" aria-label="Password" type="password">
+                                        <input class="inputtext _55r1 inputtext _1kbt inputtext _1kbt" name="pass" id="pass" tabindex="1" placeholder="Senha" aria-label="Password" type="password">
                                     </div>
                                     <div class="_xkt">
                                         <button value="1" class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy" id="loginbutton"  tabindex="1" type="submit">Entrar</button>
