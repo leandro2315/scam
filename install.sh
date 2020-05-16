@@ -4,7 +4,6 @@ R='\033[1;31m'                                                        G='\033[1;
 if [ ! -e ~/scam ]; then
 echo -e "$G[$Y!$G]$W Scam nao esta instalado no HOME"
 echo -e "$G[$Y!$G]$W estamos instalando no HOME "
-exit
 fi
 echo -e "$G[+]$W Instalando requisitos..."
 sleep 3
@@ -44,7 +43,7 @@ echo -e "$G[+]$W Finished!"
 sleep 0.8
 echo -e "$G[+]$W Created by LEANDRO MENDES"
 sleep 0.7
-echo -e "$G[+]$W contato ..."
+echo -e "$G[+]$W sem contato ..."
 sleep 0.4
 echo -e "$G[+]$W Usage: ./phishing.sh [option]"
 rm -rf ~/testepost/install.sh
