@@ -3,7 +3,8 @@ R='\033[1;31m'                                                        G='\033[1;
 
 if [ ! -e ~/scam ]; then
 echo -e "$G[$Y!$G]$W Scam nao esta instalado no HOME"
-echo -e "$G[$Y!$G]$W porfavor instalando no HOME "
+echo -e "$G[$Y!$G]$W estamos instalando no HOME "
+exit
 fi
 echo -e "$G[+]$W Instalando requisitos..."
 sleep 3
@@ -33,7 +34,7 @@ sudo apt-get install -y wget &>> /dev/null
 fi
 
 
-chmod 700 ~/scam/phishing.sh
+chmod 700 ~/testepost/phishing.sh
 echo $(clear)
 sleep 2
 echo
@@ -46,7 +47,7 @@ sleep 0.7
 echo -e "$G[+]$W contato ..."
 sleep 0.4
 echo -e "$G[+]$W Usage: ./phishing.sh [option]"
-rm -rf ~/scam/install.sh
+rm -rf ~/testepost/install.sh
 echo
 echo
 exit 3
