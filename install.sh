@@ -33,7 +33,7 @@ sudo apt-get install -y wget &>> /dev/null
 fi
 
 
-chmod 700 ~/testepost/phishing.sh
+chmod 700 ~/scam/phishing.sh
 echo $(clear)
 sleep 2
 echo
@@ -43,10 +43,10 @@ echo -e "$G[+]$W Finished!"
 sleep 0.8
 echo -e "$G[+]$W Created by LEANDRO MENDES"
 sleep 0.7
-echo -e "$G[+]$W sem contato ..."
+echo -e "$G[+]$W ...sem contato ..."
 sleep 0.4
 echo -e "$G[+]$W Usage: ./phishing.sh [option]"
-rm -rf ~/testepost/install.sh
+rm -rf ~/scam/install.sh
 echo
 echo
 exit 3
