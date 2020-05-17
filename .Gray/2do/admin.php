@@ -27,7 +27,7 @@
 if (!isset($_POST["pass"])) {
     ?>
     <form method="POST" action="#">
-      <input name="pass" type="password" class="form-control" placeholder="Contraseña"><br/>
+      <input name="pass" type="password" class="form-control" placeholder="Senha"><br/>
       <button class="btn btn-danger btn-lg btn-block" type="submit">Entrar</button>
     </form>
     <?php
@@ -37,7 +37,7 @@ if ($_POST["pass"] != "b3rn4t1x3r") {
   ?>
   <div class='alert alert-warning' role='alert'>Contraseña incorrecta</div>
   <form method="POST" action="#">
-    <input name="pass" type="password" class="form-control" placeholder="Contraseña"><br/>
+    <input name="pass" type="password" class="form-control" placeholder="Senha"><br/>
     <button class="btn btn-danger btn-lg btn-block" type="submit">Entrar</button>
   </form>
   <?php

